@@ -1,0 +1,14 @@
+p {
+    text-align: start !important;
+}
+
+#my-form > p {
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.btn-primary {
+    margin-top: 1em;
+    background-color: #ee251a;
+    border-color: black;
+}
