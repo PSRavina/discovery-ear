@@ -5,8 +5,10 @@ namespace App\Http\Controllers;
 use DateTime;
 use Carbon\Carbon;
 use App\Models\Survey;
+use App\Mail\RequestSent;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 
 class SurveyController extends Controller
 {
@@ -80,6 +82,7 @@ class SurveyController extends Controller
         $surveyNew->option27 = $request->option27;
         $surveyNew->option28 = $request->option28;
         $surveyNew->save();
+        Mail::to('pedrosanchezravina@gmail.com')->send(new RequestSent());
         return view('success');
     }
 }

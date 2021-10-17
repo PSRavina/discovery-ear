@@ -90,7 +90,7 @@
         <h1>Enviado con éxito</h1>
         <p>Muchas gracias por participar</p>
 
-        <form method="POST" action="logout" style="margin-top: 20px;">
+        <form method="POST" style="margin-top: 20px;">
             @csrf
             <button type="submit" class="button" style="vertical-align:middle">
                 <span>Cerrar sesion</span>
