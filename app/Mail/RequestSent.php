@@ -28,6 +28,7 @@ class RequestSent extends Mailable
      */
     public function build()
     {
-        return $this->view('mails.request_sent');
+        return $this->subject('Se ha recibido una respuesta del formulario EAR')
+            ->view('mails.request_sent');
     }
 }
