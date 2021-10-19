@@ -50,10 +50,10 @@
         color: #FFFFFF;
         text-align: center;
         font-size: 28px;
-        padding: 20px;
+        padding: 5px;
         transition: all 0.5s;
         cursor: pointer;
-        margin: 5px;
+        margin: 3px;
     }
 
     .button span {
@@ -89,11 +89,13 @@
         </div>
         <h1>Enviado con éxito</h1>
         <p>Muchas gracias por participar</p>
+        <p>Si tiene cualquier duda puede ponerse en contacto con nosotros a traves del siguiente email:</p>
+        <p><a href="mailto:pedro.sanchez@discovery-leadership.com">pedro.sanchez@discovery-leadership.com</a></p>
 
         <form method="POST" style="margin-top: 20px;">
             @csrf
             <button type="submit" class="button" style="vertical-align:middle">
-                <span>Cerrar sesion</span>
+                <span>Salir</span>
             </button>
         </form>
     </div>
