@@ -82,7 +82,7 @@ class SurveyController extends Controller
         $surveyNew->option27 = $request->option27;
         $surveyNew->option28 = $request->option28;
         $surveyNew->save();
-        Mail::to('pedrosanchezravina@gmail.com')->send(new RequestSent());
+        Mail::to(['pedrosanchezravina@gmail.com', 'pedro@descom.es'])->send(new RequestSent());
         return view('success');
     }
 }
