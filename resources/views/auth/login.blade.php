@@ -21,10 +21,18 @@
                 <img src="https://static.wixstatic.com/media/4bdd77_d8f0ff0492f84ec39c67a31971f9e88a~mv2.png/v1/fill/w_1737,h_498,al_c,q_90/4bdd77_d8f0ff0492f84ec39c67a31971f9e88a~mv2.webp" id="icon" alt="User Icon" />
             </div>
 
+            @if ($errors->any())
+            <div class="alert alert-danger" role="alert" style="width: 80%;">
+                <span>
+                    El usuario o la contraseña es incorrecto
+                </span>
+            </div>
+            @endif
+
             <!-- Login Form -->
             <form action="login" method="POST">
                 @csrf
-                <input type="text" id="login" class="fadeIn second" name="email" placeholder="login">
+                <input type="text" id="login" class="fadeIn second" name="email" placeholder="email">
                 <input type="password" id="password" class="fadeIn third" name="password" placeholder="password">
                 <input type="submit" class="fadeIn fourth" value="Log In">
             </form>
@@ -176,6 +184,7 @@
         -webkit-border-radius: 5px 5px 5px 5px;
         border-radius: 5px 5px 5px 5px;
     }
+
     input[type=password] {
         background-color: #f6f6f6;
         border: none;
@@ -201,6 +210,7 @@
         background-color: #fff;
         border-bottom: 2px solid #5fbae9;
     }
+
     input[type=password]:focus {
         background-color: #fff;
         border-bottom: 2px solid #5fbae9;
@@ -214,7 +224,9 @@
         color: #cccccc;
     }
 
-
+    img#icon {
+        margin: 1em;
+    }
 
     /* ANIMATIONS */
 

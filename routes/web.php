@@ -26,7 +26,10 @@ Route::get('/', function () {
 });
 
 Route::post('login', function () {
-    $credentials = request()->only('email', 'password');
+    $credentials = request()->validate([
+        'email' => ['required', 'email', 'string'],
+        'password' => ['required', 'string']
+    ]);
 
     if (Auth::attempt($credentials)) {
         request()->session()->regenerate();
