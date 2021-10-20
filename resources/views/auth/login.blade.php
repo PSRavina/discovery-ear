@@ -24,7 +24,7 @@
             @if ($errors->any())
             <div class="alert alert-danger" role="alert">
                 <span>
-                    El usuario o la contraseña es incorrecto
+                    La combinacion de usuario y contraseña es incorrecta.
                 </span>
             </div>
             @endif
@@ -69,7 +69,11 @@
         color: #cccccc;
     }
 
-
+    .alert-danger {
+        color: #EE271C;
+        background-color: black;
+        border-color: white;
+    }
 
     /* STRUCTURE */
 
