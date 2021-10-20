@@ -22,7 +22,7 @@
             </div>
 
             @if ($errors->any())
-            <div class="alert alert-danger" role="alert" style="width: 80%;">
+            <div class="alert alert-danger" role="alert">
                 <span>
                     El usuario o la contraseña es incorrecto
                 </span>
