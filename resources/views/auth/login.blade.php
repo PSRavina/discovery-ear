@@ -33,8 +33,8 @@
             <!-- Login Form -->
             <form action="login" method="POST">
                 @csrf
-                <input type="text" id="login" class="fadeIn second" name="email" placeholder="email">
-                <input type="password" id="password" class="fadeIn third" name="password" placeholder="password">
+                <input type="text" id="login" class="fadeIn second" name="email" placeholder="email" required>
+                <input type="password" id="password" class="fadeIn third" name="password" placeholder="password" required>
                 <input type="submit" class="fadeIn fourth" value="Log In">
             </form>
 
