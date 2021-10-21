@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcat icon" href="favicon.ico"> 
+    <link rel="shortcat icon" href="favicon.ico">
     <title>EAR</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -14,6 +14,8 @@
 
 <body>
     <div class="wrapper fadeInDown">
+
+
         <div id="formContent">
             <!-- Tabs Titles -->
 
@@ -21,7 +23,7 @@
             <div class="fadeIn first">
                 <img src="https://static.wixstatic.com/media/4bdd77_d8f0ff0492f84ec39c67a31971f9e88a~mv2.png/v1/fill/w_1737,h_498,al_c,q_90/4bdd77_d8f0ff0492f84ec39c67a31971f9e88a~mv2.webp" id="icon" alt="User Icon" />
             </div>
-
+            <span>Bienvenido al cuestionario de <strong>E</strong>quipos de <strong>A</strong>lto <strong>R</strong>endimiento</span> <br>
             @if ($errors->any())
             <div class="alert alert-danger" role="alert">
                 <span>
@@ -33,9 +35,9 @@
             <!-- Login Form -->
             <form action="login" method="POST">
                 @csrf
-                <input type="text" id="login" class="fadeIn second" name="email" placeholder="email" required>
-                <input type="password" id="password" class="fadeIn third" name="password" placeholder="password" required>
-                <input type="submit" class="fadeIn fourth" value="Log In">
+                <input type="email" id="login" class="fadeIn second" name="email" placeholder="Email">
+                <input type="password" id="password" class="fadeIn third" name="password" placeholder="Contraseña">
+                <input type="submit" class="fadeIn fourth" value="Acceder">
             </form>
 
         </div>
@@ -169,7 +171,7 @@
         transform: scale(0.95);
     }
 
-    input[type=text] {
+    input[type=email] {
         background-color: #f6f6f6;
         border: none;
         color: #0d0d0d;
@@ -211,7 +213,7 @@
         border-radius: 5px 5px 5px 5px;
     }
 
-    input[type=text]:focus {
+    input[type=text]:email {
         background-color: #fff;
         border-bottom: 2px solid #5fbae9;
     }
@@ -225,7 +227,7 @@
         color: #cccccc;
     }
 
-    input[type=text]:placeholder {
+    input[type=email]:placeholder {
         color: #cccccc;
     }
 

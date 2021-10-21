@@ -32,6 +32,10 @@ Route::post('login', function () {
     ]);
 
     if (Auth::attempt($credentials)) {
+        $credentials = request()->validate([
+        'email' => ['required', 'email', 'string'],
+        'password' => ['required', 'string']
+    ]);
         request()->session()->regenerate();
         return redirect('dashboard');
     }

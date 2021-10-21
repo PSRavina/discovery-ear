@@ -24,13 +24,13 @@
     p {
         color: #404F5E;
         font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
-        font-size: 20px;
+        font-size: 1.5em;
         margin: 0;
     }
 
     i {
         color: #9ABC66;
-        font-size: 100px;
+        font-size: 5em;
         line-height: 200px;
         margin-left: -15px;
     }
@@ -83,6 +83,12 @@
         right: 0;
     }
 </style>
+<script language="javascript" type="text/javascript">
+    function windowClose() {
+        window.open('', '_parent', '');
+        window.close();
+    }
+</script>
 
 <body>
     <div class="card">
@@ -93,13 +99,6 @@
         <p>Muchas gracias por participar</p>
         <p>Si tiene cualquier duda puede ponerse en contacto con nosotros a traves del siguiente email:</p>
         <p><a href="mailto:pedro.sanchez@discovery-leadership.com">pedro.sanchez@discovery-leadership.com</a></p>
-
-        <form method="POST" style="margin-top: 20px;">
-            @csrf
-            <button type="submit" class="button" style="vertical-align:middle">
-                <span>Salir</span>
-            </button>
-        </form>
     </div>
 </body>
 
