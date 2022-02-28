@@ -45,6 +45,13 @@ class CreateSurveysTable extends Migration
             $table->string('option26');
             $table->string('option27');
             $table->string('option28');
+            $table->string('option29');
+            $table->string('option30');
+            $table->string('option31');
+            $table->string('option32');
+            $table->string('option33');
+            $table->string('option34');
+            $table->string('option35');
             $table->timestamps();
         });
     }

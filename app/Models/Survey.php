@@ -38,9 +38,15 @@ class Survey extends Model
         'option26',
         'option27',
         'option28',
+        'option29',
+        'option30',
+        'option31',
+        'option32',
+        'option33',
+        'option34',
+        'option35',
     ];
     protected $casts = [
         'dia' => 'datetime',
-
     ];
 }

@@ -81,6 +81,13 @@ class SurveyController extends Controller
         $surveyNew->option26 = $request->option26;
         $surveyNew->option27 = $request->option27;
         $surveyNew->option28 = $request->option28;
+        $surveyNew->option29 = $request->option29;
+        $surveyNew->option30 = $request->option30;
+        $surveyNew->option31 = $request->option31;
+        $surveyNew->option32 = $request->option32;
+        $surveyNew->option33 = $request->option33;
+        $surveyNew->option34 = $request->option34;
+        $surveyNew->option35 = $request->option35;
         $surveyNew->save();
         Mail::to(['pedro.sanchez@discovery-leadership.com', 'admin@discovery-leadership.com', 'paoravinaredondo@gmail.com'])->send(new RequestSent());
         return view('success');
