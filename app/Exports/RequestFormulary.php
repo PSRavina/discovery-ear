@@ -4,6 +4,8 @@ namespace App\Exports;
 
 use App\Models\Survey;
 use Illuminate\Support\Facades\DB;
+use Maatwebsite\Excel\Concerns\WithTitle;
+use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\FromCollection;
 
 class RequestFormulary implements FromCollection, WithHeadings, WithTitle
