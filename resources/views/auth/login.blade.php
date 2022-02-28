@@ -23,7 +23,7 @@
             <div class="fadeIn first">
                 <img src="https://static.wixstatic.com/media/4bdd77_d8f0ff0492f84ec39c67a31971f9e88a~mv2.png/v1/fill/w_1737,h_498,al_c,q_90/4bdd77_d8f0ff0492f84ec39c67a31971f9e88a~mv2.webp" id="icon" alt="User Icon" />
             </div>
-            <span>Bienvenido al cuestionario de <strong>E</strong>quipos de <strong>A</strong>lto <strong>R</strong>endimiento</span> <br>
+            <span>Bienvenido al <strong>T</strong>est de <strong>I</strong>nteligencia <strong>R</strong>elacional</span> <br>
             @if ($errors->any())
             <div class="alert alert-danger" role="alert">
                 <span>

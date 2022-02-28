@@ -439,7 +439,8 @@
                 <h1>TEST DE INTELIGENCIA RELACIONAL DISCOVERY LEADERSHIP ©</h1>
             </div>
             <span class="description">
-                Este cuestionario nos servirá para comenzar a trabajar, teniendo en cuenta dónde está el equipo en este momento. Sólo el facilitador conocerá las respuestas individuales. El equipo conocerá el agregado de todos los miembros del equipo. A continuación encontrarás 28 frases referidas a este Equipo de Dirección de la Planta de Elaborados de Campofrío Frescos. Marca la opción que más se aproxime a su funcionamiento habitual, teniendo en cuenta si la frase se cumple siempre, casi siempre, a veces, pocas veces o nunca.
+                Bienvenido al Test de Inteligencia Relacional de Discovery (TIR)©. Este Cuestionario de Autodiagnóstico nos servirá para conocer un poco más tu estilo relacional. No hay estilos mejores o peores, sólo diferentes maneras de ver el mundo. Responde sin pensar demasiado, a <strong>qué es importante para tí y qué te gusta hacer y qué haces con mayor facilidad y sin esfuerzo. Si haces algo bien, pero no te sientes cómodo, tranquilo y satisfecho al hacerlo, no marques las frase.</strong>
+                Marca la opción que más se aproxime a su funcionamiento habitual, teniendo en cuenta si la frase se cumple <strong>nunca, a veces o siempre</strong>
             </span>
         </div>
     </div>
