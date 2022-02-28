@@ -440,7 +440,7 @@
             </div>
             <span class="description">
                 Bienvenido al Test de Inteligencia Relacional de Discovery (TIR)©. Este Cuestionario de Autodiagnóstico nos servirá para conocer un poco más tu estilo relacional. No hay estilos mejores o peores, sólo diferentes maneras de ver el mundo. Responde sin pensar demasiado, a <strong>qué es importante para tí y qué te gusta hacer y qué haces con mayor facilidad y sin esfuerzo. Si haces algo bien, pero no te sientes cómodo, tranquilo y satisfecho al hacerlo, no marques las frase.</strong>
-                Marca la opción que más se aproxime a su funcionamiento habitual, teniendo en cuenta si la frase se cumple <strong>nunca, a veces o siempre</strong>
+                Marca la opción que más se aproxime a su funcionamiento habitual, teniendo en cuenta si la frase <strong>se cumple, no se cumple o se cumple A veces.</strong>
             </span>
         </div>
     </div>
@@ -452,15 +452,15 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option1" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option1" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option1" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -471,15 +471,15 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option2" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option2" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option2" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -490,15 +490,15 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option3" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option3" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option3" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -509,15 +509,15 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option4" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option4" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option4" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -528,15 +528,15 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option5" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option5" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option5" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -546,15 +546,15 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -564,16 +564,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option7" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option7" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option7" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -583,16 +583,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option8" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option8" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option8" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -602,16 +602,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option9" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option9" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option9" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -621,16 +621,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option10" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option10" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option10" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -640,16 +640,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option11" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option11" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option11" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -659,16 +659,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option12" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option12" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option12" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -678,35 +678,35 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>14.-Soy una persona decidida, comprometida y efectiva: Cuando veo un objetivo claro, voy a por él y casi siempre lo consigo.</p>
+                <p>14.-Soy una persona decidida, comprometida y efectiva: Cuando veo un objetivo claro, voy a por él y casi Sí lo consigo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -716,16 +716,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option15" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option15" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option15" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -735,16 +735,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option16" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option16" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option16" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -754,16 +754,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option17" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option17" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option17" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -773,16 +773,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option18" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option18" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option18" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -792,16 +792,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option19" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option19" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option19" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -811,16 +811,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option20" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option20" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option20" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -830,16 +830,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option21" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option21" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option21" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -849,35 +849,35 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option22" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option22" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option22" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>23.-Veo ideas, temas, oportunidades nuevas, soluciones creativas, donde otros sólo ven "lo de siempre".</p>
+                <p>23.-Veo ideas, temas, oportunidades nuevas, soluciones creativas, donde otros sólo ven "lo de Sí".</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option23" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option23" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option23" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -887,16 +887,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option24" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option24" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option24" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -906,16 +906,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option25" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option25" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option25" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -925,16 +925,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option26" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option26" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option26" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -944,16 +944,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option27" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option27" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option27" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -963,16 +963,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option28" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option28" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option28" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -982,16 +982,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option29" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option29" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option29" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -1001,16 +1001,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option30" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option30" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option30" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -1020,16 +1020,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option31" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option31" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option31" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -1039,16 +1039,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option32" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option32" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option32" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -1058,16 +1058,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option33" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option33" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option33" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -1077,16 +1077,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option34" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option34" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option34" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
             </div>
@@ -1096,16 +1096,16 @@
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option35" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                        <label class="form-check-label" for="inlineRadio1">No</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option35" id="inlineRadio3" value="3">
-                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                        <label class="form-check-label" for="inlineRadio3">A veces</label>
                     </div>
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option35" id="inlineRadio5" value="5">
-                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                        <label class="form-check-label" for="inlineRadio5">Sí</label>
                     </div>
                 </div>
 
