@@ -1180,199 +1180,193 @@
                         <input class="form-check-input" type="radio" name="option28" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
                     </div>
-
-                    <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                        @csrf
-                        <p>27.-Conseguir los objetivos nos llena de satisfacción.</p>
-                        <div class="inputs-radio">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option29" id="inlineRadio1" value="1" required>
-                                <label class="form-check-label" for="inlineRadio1">nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option29" id="inlineRadio2" value="2">
-                                <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option29" id="inlineRadio3" value="3">
-                                <label class="form-check-label" for="inlineRadio3">a veces</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option29" id="inlineRadio4" value="4">
-                                <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option29" id="inlineRadio5" value="5">
-                                <label class="form-check-label" for="inlineRadio5">siempre</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                        @csrf
-                        <p>27.-Conseguir los objetivos nos llena de satisfacción.</p>
-                        <div class="inputs-radio">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option30" id="inlineRadio1" value="1" required>
-                                <label class="form-check-label" for="inlineRadio1">nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option30" id="inlineRadio2" value="2">
-                                <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option30" id="inlineRadio3" value="3">
-                                <label class="form-check-label" for="inlineRadio3">a veces</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option30" id="inlineRadio4" value="4">
-                                <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option30" id="inlineRadio5" value="5">
-                                <label class="form-check-label" for="inlineRadio5">siempre</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                        @csrf
-                        <p>27.-Conseguir los objetivos nos llena de satisfacción.</p>
-                        <div class="inputs-radio">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option31" id="inlineRadio1" value="1" required>
-                                <label class="form-check-label" for="inlineRadio1">nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option31" id="inlineRadio2" value="2">
-                                <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option31" id="inlineRadio3" value="3">
-                                <label class="form-check-label" for="inlineRadio3">a veces</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option31" id="inlineRadio4" value="4">
-                                <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option31" id="inlineRadio5" value="5">
-                                <label class="form-check-label" for="inlineRadio5">siempre</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                        @csrf
-                        <p>27.-Conseguir los objetivos nos llena de satisfacción.</p>
-                        <div class="inputs-radio">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option32" id="inlineRadio1" value="1" required>
-                                <label class="form-check-label" for="inlineRadio1">nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option32" id="inlineRadio2" value="2">
-                                <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option32" id="inlineRadio3" value="3">
-                                <label class="form-check-label" for="inlineRadio3">a veces</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option32" id="inlineRadio4" value="4">
-                                <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option32" id="inlineRadio5" value="5">
-                                <label class="form-check-label" for="inlineRadio5">siempre</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                        @csrf
-                        <p>27.-Conseguir los objetivos nos llena de satisfacción.</p>
-                        <div class="inputs-radio">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option33" id="inlineRadio1" value="1" required>
-                                <label class="form-check-label" for="inlineRadio1">nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option33" id="inlineRadio2" value="2">
-                                <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option33" id="inlineRadio3" value="3">
-                                <label class="form-check-label" for="inlineRadio3">a veces</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option33" id="inlineRadio4" value="4">
-                                <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option33" id="inlineRadio5" value="5">
-                                <label class="form-check-label" for="inlineRadio5">siempre</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                        @csrf
-                        <p>27.-Conseguir los objetivos nos llena de satisfacción.</p>
-                        <div class="inputs-radio">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option34" id="inlineRadio1" value="1" required>
-                                <label class="form-check-label" for="inlineRadio1">nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option34" id="inlineRadio2" value="2">
-                                <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option34" id="inlineRadio3" value="3">
-                                <label class="form-check-label" for="inlineRadio3">a veces</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option34" id="inlineRadio4" value="4">
-                                <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option34" id="inlineRadio5" value="5">
-                                <label class="form-check-label" for="inlineRadio5">siempre</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                        @csrf
-                        <p>27.-Conseguir los objetivos nos llena de satisfacción.</p>
-                        <div class="inputs-radio">
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option35" id="inlineRadio1" value="1" required>
-                                <label class="form-check-label" for="inlineRadio1">nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option35" id="inlineRadio2" value="2">
-                                <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option35" id="inlineRadio3" value="3">
-                                <label class="form-check-label" for="inlineRadio3">a veces</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option35" id="inlineRadio4" value="4">
-                                <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="option35" id="inlineRadio5" value="5">
-                                <label class="form-check-label" for="inlineRadio5">siempre</label>
-                            </div>
-                        </div>
-                    </div>
-                    @if ($errors->any())
-                    <div class="alert alert-danger" role="alert">
-                        Algunas preguntas se quedaron sin responder. Realice de nuevo el cuestionario
-                    </div>
-                    @endif
                 </div>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
+                @csrf
+                <p>29.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <div class="inputs-radio">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio1" value="1" required>
+                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio2" value="2">
+                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio3" value="3">
+                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio4" value="4">
+                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio5" value="5">
+                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
+                @csrf
+                <p>30.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <div class="inputs-radio">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio1" value="1" required>
+                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio2" value="2">
+                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio3" value="3">
+                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio4" value="4">
+                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio5" value="5">
+                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
+                @csrf
+                <p>31.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <div class="inputs-radio">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio1" value="1" required>
+                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio2" value="2">
+                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio3" value="3">
+                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio4" value="4">
+                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio5" value="5">
+                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
+                @csrf
+                <p>32.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <div class="inputs-radio">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio1" value="1" required>
+                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio2" value="2">
+                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio3" value="3">
+                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio4" value="4">
+                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio5" value="5">
+                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
+                @csrf
+                <p>33.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <div class="inputs-radio">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio1" value="1" required>
+                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio2" value="2">
+                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio3" value="3">
+                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio4" value="4">
+                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio5" value="5">
+                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
+                @csrf
+                <p>34.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <div class="inputs-radio">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio1" value="1" required>
+                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio2" value="2">
+                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio3" value="3">
+                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio4" value="4">
+                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio5" value="5">
+                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
+                @csrf
+                <p>35.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <div class="inputs-radio">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio1" value="1" required>
+                        <label class="form-check-label" for="inlineRadio1">nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio2" value="2">
+                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio3" value="3">
+                        <label class="form-check-label" for="inlineRadio3">a veces</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio4" value="4">
+                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio5" value="5">
+                        <label class="form-check-label" for="inlineRadio5">siempre</label>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-12 text-center" style="margin-top: 1em;">
                         <button type="submit" class="btn btn-lg btn-primary" style="vertical-align:middle; background-color:rgb(224, 73, 40); border:1px solid black" id="myBtn" value="submit">Enviar</button>
-
                     </div>
                 </div>
     </form>
