@@ -921,7 +921,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>26.-Creo que las reglas son importantes y deben cumplirse.</p>
+                <p>26.-Disfruto de tareas como clasificar, ordenar y planificar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option26" id="inlineRadio1" value="1" required>
