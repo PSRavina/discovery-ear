@@ -436,7 +436,7 @@
     <div class="container">
         <div class="row justify-content-center align-items-center minh-100">
             <div>
-                <h1>CUESTIONARIO EQUIPOS ALTO RENDIMIENTO DISCOVERY LEADERSHIP ©</h1>
+                <h1>TEST DE INTELIGENCIA RELACIONAL DISCOVERY LEADERSHIP ©</h1>
             </div>
             <span class="description">
                 Este cuestionario nos servirá para comenzar a trabajar, teniendo en cuenta dónde está el equipo en este momento. Sólo el facilitador conocerá las respuestas individuales. El equipo conocerá el agregado de todos los miembros del equipo. A continuación encontrarás 28 frases referidas a este Equipo de Dirección de la Planta de Elaborados de Campofrío Frescos. Marca la opción que más se aproxime a su funcionamiento habitual, teniendo en cuenta si la frase se cumple siempre, casi siempre, a veces, pocas veces o nunca.
@@ -445,30 +445,17 @@
     </div>
     <form action="/dashboard" method="POST" name="form" value="submit">
         <div class="row justify-content-center">
-            @if ($errors->any())
-            <div class="alert alert-danger" role="alert">
-                Algunas preguntas se quedaron sin responder. Realice de nuevo el cuestionario
-            </div>
-            @endif
             <div id="my-form" class="col-12 col-md-10 col-lg-8 my-form">
                 @csrf
-                <p>1.-Todos somos conscientes de los comportamientos premiados y aceptados por el equipo y actuamos en consecuencia.</p>
+                <p>1.-Me gusta tener las cosas organizadas y centrarme en los detalles: un sitio para cada cosa.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option1" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option1" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2"> casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option1" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option1" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option1" id="inlineRadio5" value="5">
@@ -479,23 +466,15 @@
 
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>2.-Todos disfrutamos de discutir y compartir los problemas apasionadamente y sin tapujos.</p>
+                <p>2.-Presto especial atención a la comunicación verbal y no verbal para comprender mejor al otro.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option2" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option2" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option2" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option2" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option2" id="inlineRadio5" value="5">
@@ -506,23 +485,15 @@
 
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>3.-Señalamos las deficiencias y conductas improductivas propias y de los demás, sin miedos.</p>
+                <p>3.-Me encanta perderme en el mundo de las ideas, de los grandes principios y valores.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option3" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option3" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option3" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option3" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option3" id="inlineRadio5" value="5">
@@ -533,23 +504,15 @@
 
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>4.-Sabemos en qué están trabajando los otros miembros del equipo y cómo contribuyen a los objetivos comunes.</p>
+                <p>4.-Funciono por objetivos: alcanzar los retos que me propongo es importante para mi.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option4" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option4" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option4" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option4" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option4" id="inlineRadio5" value="5">
@@ -560,23 +523,15 @@
 
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>5.-Las normas de funcionamiento del equipo son conocidas por todos y apelamos a ellas cuando alguien se las salta.</p>
+                <p>5.-El mundo es complejo, todo se relaciona y funciona de manera Sistémica.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option5" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option5" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option5" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option5" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option5" id="inlineRadio5" value="5">
@@ -586,23 +541,15 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>6.-Nos disculpamos en el acto y con toda sinceridad cuando decimos o hacemos algo inadecuado o posiblemente perjudicial para el equipo.</p>
+                <p>6.-Soy muy productivo,confiable y autodisciplinado. Completo lo que tengo que hacer en tiempo y forma.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option6" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option6" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio5" value="5">
@@ -612,24 +559,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>7.-Son importantes el respeto, la camaradería y la escucha de los demás, a nivel personal y profesional.</p>
+                <p>7.-Creo que los sentimientos son más importantes que los pensamientos.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option7" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option7" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option7" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option7" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option7" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -638,24 +578,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>8.-Todos los miembros del equipo estamos dispuestos a sacrificar objetivos personales (tiempo, presupuesto, proyecto, carrera... ) por el bien común del equipo.</p>
+                <p>8.-Me gustaría dejar un impacto positivo en el Mundo, un toque de genialidad.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option8" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option8" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option8" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option8" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option8" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -664,24 +597,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>9.-Confesamos abiertamente nuestras debilidades y errores, para mejora de todos.</p>
+                <p>9.-Soy bueno si tengo la responsabilidad final sobre las cosas; me gusta dar dirección, tomar decisiones y determinar prioridades.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option9" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option9" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option9" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option9" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option9" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -690,24 +616,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>10.-Las reuniones del equipo son apasionantes, abiertas, enriquecedoras... nunca aburridas.</p>
+                <p>10.-Soy consciente de que, en general, cualquier problema afecta mucho más allá de lo que se ve, a muchos ámbitos.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option10" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option10" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option10" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option10" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option10" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -716,24 +635,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>11.-Nos marchamos de las reuniones confiados en que nuestros compañeros están por completo comprometidos con las decisiones acordadas, aunque hubiera desacuerdos inicialmente.</p>
+                <p>11.-Creo que las reglas son importantes y deben cumplirse.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option11" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option11" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option11" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option11" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option11" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -742,24 +654,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>12.-En este equipo, el apoyo emocional a compañeros de trabajo en momentos difíciles está asegurado.</p>
+                <p>12.-Soy empático y busco entender cómo se sienten las personas para conectar mejor y avanzar juntos.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option12" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option12" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option12" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option12" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option12" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -768,24 +673,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>13.-El equipo lo pasa realmente mal cuando no se logran los objetivos comunes.</p>
+                <p>13.-Se me reconoce como una persona expresiva, comunicativa, inspiradora y con mucha energía.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option13" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option13" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -794,24 +692,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>14.-Durante las reuniones del equipo, los asuntos más importantes y difíciles se ponen sobre la mesa para ser resueltos.</p>
+                <p>14.-Soy una persona decidida, comprometida y efectiva: Cuando veo un objetivo claro, voy a por él y casi siempre lo consigo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option14" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option14" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -820,24 +711,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>15.-Hay unas reglas claras de funcionamiento en el equipo (valores compartidos, creencias, lo que es importante, lo que es accesorio...)</p>
+                <p>15.-Soy bueno en detectar todas las partes de un asunto, sus relaciones e implicaciones.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option15" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option15" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option15" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option15" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option15" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -846,24 +730,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>16.-A los miembros de este equipo nos preocupa seriamente la perspectiva de defraudar a nuestros compañeros.</p>
+                <p>16.-Me disgusta la ambigüedad, la falta de previsión, la falta de planificación y los riesgos innecesarios.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option16" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option16" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option16" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option16" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option16" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -872,24 +749,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>17.-Confiamos en que los errores son aceptados para mejorar y no son ocultados a los demás miembros del equipo.</p>
+                <p>17.-Creo que el desarrollo y el crecimiento personal son sumamente importantes.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option17" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option17" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option17" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option17" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option17" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -898,24 +768,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>18.-Terminamos nuestros debates y reuniones con resoluciones claras, específicas y con un plan de acción.</p>
+                <p>18.-Me disgustan las tareas o actividades rutinarias y me aburro enseguida de ellas.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option18" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option18" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option18" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option18" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option18" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -924,24 +787,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>19.-Sabemos que la vida personal de cada uno afecta al equipo y lo tenemos en cuenta para ayudarnos.</p>
+                <p>19.-Considero que pensar es significativamente más importante que sentir.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option19" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option19" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option19" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option19" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option19" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -950,24 +806,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>20.-Nos desafiamos unos a otros acerca de nuestros proyectos, ideas nuevas y planteamientos.</p>
+                <p>20.-Me cuesta tomar decisiones si no tengo toda la información.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option20" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option20" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option20" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option20" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option20" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -976,24 +825,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>21.-Los miembros de nuestro equipo no tienen prisa en destacar sus propias contribuciones pero señalan las de los demás sin pérdida de tiempo.</p>
+                <p>21.-Prefiero relacionarme con personas que controlen sus emociones y se comporten adecuadamente.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option21" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option21" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option21" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option21" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option21" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1002,24 +844,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>22.-Sabemos lo que hay que hacer, cómo, cuando y quien lo tiene que hacer.</p>
+                <p>22.-Con un buen equipo puedo alcanzar cualquier objetivo: primero las personas.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option22" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option22" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option22" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option22" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option22" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1028,24 +863,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>23.-La Confianza es uno de nuestros pilares.</p>
+                <p>23.-Veo ideas, temas, oportunidades nuevas, soluciones creativas, donde otros sólo ven "lo de siempre".</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option23" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option23" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option23" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option23" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option23" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1054,24 +882,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>24.-Gestionamos los conflictos de manera positiva para ayudarnos unos a otros, promoviendo el aprendizaje conjunto.</p>
+                <p>24.-Evaluo mi éxito en función de la efectividad de lo que hago y el resultado final.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option24" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option24" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option24" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option24" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option24" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1080,24 +901,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>25.-Estamos totalmente comprometidos con los objetivos comunes.</p>
+                <p>25.-Me molesta tener que elegir apresuradamente, sin reflexionar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option25" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option25" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option25" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option25" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option25" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1106,24 +920,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>26.-Estamos todos "en el mismo barco" y nos co-responsabilizamos de "llegar a buen puerto" juntos.</p>
+                <p>26.-Creo que las reglas son importantes y deben cumplirse.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option26" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option26" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option26" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option26" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option26" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1132,24 +939,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>27.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <p>27.-Me siento incómodo ante situaciones de conflicto.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option27" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option27" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option27" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option27" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option27" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1158,24 +958,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>28.-La comunicación, abierta y sincera, es importante en nuestro equipo.</p>
+                <p>28.-Me gusta trabajar en varios temas a la vez; la agilidad, lo novedoso, lo distinto, lo original.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option28" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option28" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option28" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option28" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option28" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1184,24 +977,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>29.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <p>29.-Suelo organizar el material en puntos clave y en principios operativos.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option29" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option29" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option29" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1210,24 +996,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>30.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <p>30.-Creo que es importante pensar antes de actuar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option30" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option30" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option30" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1236,24 +1015,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>31.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <p>31.-Me gusta programar mi vida personal y profesional y me molesta cuando tengo que desviarme de lo planificado.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option31" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option31" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option31" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1262,24 +1034,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>32.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <p>32.-Motivar a los demás, cooperar, la armonía y la tranquilidad son valores muy importantes.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option32" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option32" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option32" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1288,24 +1053,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>33.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <p>33.-A veces me cuesta enfocar en un único tema o centrarme en los pequeños detalles.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option33" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option33" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option33" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1314,24 +1072,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>34.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <p>34.-La paciencia no es mi mejor virtud.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option34" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option34" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option34" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>
@@ -1340,24 +1091,17 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>35.-Conseguir los objetivos nos llena de satisfacción.</p>
+                <p>35.-Soy una persona paciente, reflexiva, que intento equilibrar todo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option35" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">nunca</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio2" value="2">
-                        <label class="form-check-label" for="inlineRadio2">casi nunca</label>
-                    </div>
-                    <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option35" id="inlineRadio3" value="3">
                         <label class="form-check-label" for="inlineRadio3">a veces</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio4" value="4">
-                        <label class="form-check-label" for="inlineRadio4">casi siempre</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option35" id="inlineRadio5" value="5">
                         <label class="form-check-label" for="inlineRadio5">siempre</label>

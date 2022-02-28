@@ -10,5 +10,4 @@
     <p>Puede descargar el documento completo a través del siguiente enlace <a href="https://ear.discovery-leadership.com/completereport">Reporte completo TIR</a></p>
     <p>Puede descargar el documento referente a las medias por bloques desde el siguiente enlace <a href="https://ear.discovery-leadership.com/items">Reporte de medias por items TIR</a></p>
 </body>
-
 </html>
