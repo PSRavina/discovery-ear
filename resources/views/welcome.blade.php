@@ -451,13 +451,10 @@
                 <p>1.-Me gusta tener las cosas organizadas y centrarme en los detalles: un sitio para cada cosa.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option1" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option1" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option1" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option1" id="inlineRadio5" value="0">
                         <label class="form-check-label" for="inlineRadio5">No</label>
@@ -470,13 +467,10 @@
                 <p>2.-Presto especial atención a la comunicación verbal y no verbal para comprender mejor al otro.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option2" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option2" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option2" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option2" id="inlineRadio5" value="0">
                         <label class="form-check-label" for="inlineRadio5">No</label>
@@ -489,13 +483,10 @@
                 <p>3.-Me encanta perderme en el mundo de las ideas, de los grandes principios y valores.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option3" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option3" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option3" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option3" id="inlineRadio5" value="0">
                         <label class="form-check-label" for="inlineRadio5">No</label>
@@ -508,13 +499,10 @@
                 <p>4.-Funciono fundamentalmente por objetivos: alcanzar los retos que me propongo es muy importante para mi.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option4" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option4" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option4" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option4" id="inlineRadio5" value="0">
                         <label class="form-check-label" for="inlineRadio5">No</label>
@@ -527,13 +515,10 @@
                 <p>5.-El mundo es muy complejo, todo se relaciona y funciona de manera Sistémica.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option5" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option5" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option5" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option5" id="inlineRadio5" value="0">
                         <label class="form-check-label" for="inlineRadio5">No</label>
@@ -545,13 +530,10 @@
                 <p>6.-Siempre hago lo que tengo que hacer en tiempo y forma. La disciplina y el orden son pilares en mi vida.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option6" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option6" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option6" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio5" value="0">
                         <label class="form-check-label" for="inlineRadio5">No</label>
@@ -563,13 +545,10 @@
                 <p>7.-Los sentimientos son mucho más importantes que los pensamientos.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option7" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option7" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option7" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option7" id="inlineRadio5" value="0">
@@ -582,13 +561,10 @@
                 <p>8.-Estoy convencido de que voy a dejar un legado importante en el Mundo, un toque de genialidad.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option8" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option8" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option8" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option8" id="inlineRadio5" value="0">
@@ -601,13 +577,10 @@
                 <p>9.-Soy muy bueno cuando tengo la responsabilidad final sobre las cosas: me gusta dar dirección, tomar decisiones, asumir responsabilidades y gestionar a otros.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option9" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option9" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option9" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option9" id="inlineRadio5" value="0">
@@ -620,13 +593,10 @@
                 <p>10.-Soy consciente de que, en general, cualquier problema afecta mucho más allá de lo que se ve, a muchos ámbitos.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option10" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option10" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option10" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option10" id="inlineRadio5" value="0">
@@ -639,13 +609,10 @@
                 <p>11.-Creo que las reglas son importantes y deben cumplirse, aunque no esté de acuerdo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option11" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option11" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option11" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option11" id="inlineRadio5" value="0">
@@ -658,13 +625,10 @@
                 <p>12.-Soy empático y busco entender cómo se sienten las personas para conectar mejor y avanzar juntos.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option12" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option12" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option12" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option12" id="inlineRadio5" value="0">
@@ -677,13 +641,10 @@
                 <p>13.-Soy una persona abierta, comunicativa, expresiva, con mucha energía, que inspira a otros.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option13" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option13" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option13" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio5" value="0">
@@ -696,13 +657,10 @@
                 <p>14.-No me rindo nunca: cuando tengo un objetivo, voy a por él y casi siempre lo consigo. </p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option14" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option14" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option14" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio5" value="0">
@@ -715,13 +673,10 @@
                 <p>15.-Soy bueno en detectar todas las partes de un asunto, sus relaciones e implicaciones.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option15" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option15" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option15" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option15" id="inlineRadio5" value="0">
@@ -734,13 +689,10 @@
                 <p>16.-Me disgusta la ambigüedad, la falta de previsión, la falta de planificación y los riesgos innecesarios.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option16" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option16" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option16" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option16" id="inlineRadio5" value="0">
@@ -753,13 +705,10 @@
                 <p>17.-Creo que el desarrollo y el crecimiento personal es la clave para ser feliz.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option17" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option17" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option17" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option17" id="inlineRadio5" value="0">
@@ -772,13 +721,10 @@
                 <p>18.-Me disgustan las tareas o actividades rutinarias y me aburro enseguida de ellas.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option18" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option18" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option18" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option18" id="inlineRadio5" value="0">
@@ -791,13 +737,10 @@
                 <p>19.-Considero que pensar es significativamente más importante que sentir.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option19" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option19" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option19" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option19" id="inlineRadio5" value="0">
@@ -810,13 +753,10 @@
                 <p>20.-Me cuesta tomar decisiones si no tengo toda la información.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option20" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option20" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option20" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option20" id="inlineRadio5" value="0">
@@ -826,16 +766,13 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>21.-Prefiero relacionarme con personas poco emocionales, que estén centradas en el trabajo  y se comporten adecuadamente.    </p>
+                <p>21.-Prefiero relacionarme con personas poco emocionales, que estén centradas en el trabajo y se comporten adecuadamente. </p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option21" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option21" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option21" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option21" id="inlineRadio5" value="0">
@@ -848,13 +785,10 @@
                 <p>22.-Primero las personas: con un buen equipo puedo alcanzar cualquier objetivo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option22" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option22" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option22" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option22" id="inlineRadio5" value="0">
@@ -867,13 +801,10 @@
                 <p>23.-Suelo tomar decisiones con rapidez y seguridad; La paciencia no es mi mejor virtud.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option23" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option23" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option23" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option23" id="inlineRadio5" value="0">
@@ -886,13 +817,10 @@
                 <p>24.-Evaluo mi éxito en función de la efectividad de lo que hago y el resultado final.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option24" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option24" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option24" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option24" id="inlineRadio5" value="0">
@@ -905,13 +833,10 @@
                 <p>25.-Me molesta tener que elegir apresuradamente, sin reflexionar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option25" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option25" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option25" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option25" id="inlineRadio5" value="0">
@@ -924,13 +849,10 @@
                 <p>26.-Disfruto de tareas como clasificar, ordenar y planificar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option26" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option26" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option26" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option26" id="inlineRadio5" value="0">
@@ -943,13 +865,10 @@
                 <p>27.-Me siento incómodo ante situaciones de conflicto.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option27" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option27" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option27" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option27" id="inlineRadio5" value="0">
@@ -962,13 +881,10 @@
                 <p>28.-Me gusta trabajar en varios temas a la vez; la agilidad, lo novedoso, lo distinto, lo original.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option28" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option28" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option28" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option28" id="inlineRadio5" value="0">
@@ -981,13 +897,10 @@
                 <p>29.-Suelo organizarlo todo en puntos clave y en principios operativos; si algo no es operativo, no lo tengo en cuenta.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option29" id="inlineRadio5" value="0">
@@ -1000,13 +913,10 @@
                 <p>30.-Para mí es muy importante pensar bien las cosas antes de actuar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option30" id="inlineRadio5" value="0">
@@ -1019,13 +929,10 @@
                 <p>31.-Me gusta programar mi vida personal y profesional y me molesta cuando tengo que desviarme de lo planificado.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option31" id="inlineRadio5" value="0">
@@ -1038,13 +945,10 @@
                 <p>32.-La cooperación, la armonía y la tranquilidad son algunos de mis valores.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option32" id="inlineRadio5" value="0">
@@ -1057,13 +961,10 @@
                 <p>33.-A veces me cuesta enfocar en un único tema o centrarme en los pequeños detalles.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option33" id="inlineRadio5" value="0">
@@ -1076,13 +977,10 @@
                 <p>34.-Veo ideas, temas, oportunidades nuevas, soluciones creativas, donde otros sólo ven "lo de siempre".</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option34" id="inlineRadio5" value="0">
@@ -1095,13 +993,10 @@
                 <p>35.-Soy una persona paciente, reflexiva, introspectiva, que intento equilibrar todo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio1" value="2" required>
+                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio1" value="1" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio3" value="1">
-                        <label class="form-check-label" for="inlineRadio3">A veces</label>
-                    </div>
+
 
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option35" id="inlineRadio5" value="0">
