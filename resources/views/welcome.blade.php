@@ -542,7 +542,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>6.-Ser productivo, confiable y autodisciplinado</p>
+                <p>6.-Siempre hago lo que tengo que hacer en tiempo y forma. La disciplina y el orden son pilares en mi vida.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio1" value="2" required>
@@ -560,7 +560,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>7.-Creo que los sentimientos son más importantes que los pensamientos.</p>
+                <p>7.-Los sentimientos son mucho más importantes que los pensamientos.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option7" id="inlineRadio1" value="2" required>
@@ -579,7 +579,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>8.-Me gustaría dejar un impacto positivo en el Mundo, un toque de genialidad.</p>
+                <p>8.-Estoy convencido de que voy a dejar un legado importante en el Mundo, un toque de genialidad.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option8" id="inlineRadio1" value="2" required>
@@ -598,7 +598,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>9.-Soy bueno si tengo la responsabilidad final sobre las cosas; me gusta dar dirección, tomar decisiones y determinar prioridades.</p>
+                <p>9.-Soy muy bueno cuando tengo la responsabilidad final sobre las cosas: me gusta dar dirección, tomar decisiones, asumir responsabilidades y gestionar a otros.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option9" id="inlineRadio1" value="2" required>
@@ -636,7 +636,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>11.-Creo que las reglas son importantes y deben cumplirse.</p>
+                <p>11.-Creo que las reglas son importantes y deben cumplirse, aunque no esté de acuerdo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option11" id="inlineRadio1" value="2" required>
@@ -674,7 +674,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>13.-Se me reconoce como una persona expresiva, comunicativa, inspiradora y con mucha energía.</p>
+                <p>13.-Soy una persona abierta, comunicativa, expresiva, con mucha energía, que inspira a otros.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio1" value="2" required>
@@ -693,7 +693,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>14.-Soy una persona decidida, comprometida y efectiva: Cuando veo un objetivo claro, voy a por él y casi siempre lo consigo.</p>
+                <p>14.-No me rindo nunca: cuando tengo un objetivo, voy a por él y casi siempre lo consigo. </p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio1" value="2" required>
@@ -750,7 +750,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>17.-Creo que el desarrollo y el crecimiento personal son sumamente importantes.</p>
+                <p>17.-Creo que el desarrollo y el crecimiento personal es la clave para ser feliz.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option17" id="inlineRadio1" value="2" required>
@@ -826,7 +826,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>21.-Prefiero relacionarme con personas que controlen sus emociones y se comporten adecuadamente.</p>
+                <p>21.-Prefiero relacionarme con personas poco emocionales, que estén centradas en el trabajo  y se comporten adecuadamente.    </p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option21" id="inlineRadio1" value="2" required>
@@ -845,7 +845,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>22.-Con un buen equipo puedo alcanzar cualquier objetivo: primero las personas.</p>
+                <p>22.-Primero las personas: con un buen equipo puedo alcanzar cualquier objetivo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option22" id="inlineRadio1" value="2" required>
@@ -978,7 +978,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>29.-Suelo organizar el material en puntos clave y en principios operativos.</p>
+                <p>29.-Suelo organizarlo todo en puntos clave y en principios operativos; si algo no es operativo, no lo tengo en cuenta.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option29" id="inlineRadio1" value="2" required>
@@ -1035,7 +1035,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>32.-La cooperación, la armonía y la tranquilidad son algunos de mis valores importantes.</p>
+                <p>32.-La cooperación, la armonía y la tranquilidad son algunos de mis valores.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option32" id="inlineRadio1" value="2" required>
@@ -1092,7 +1092,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>35.-Soy una persona paciente, reflexiva, que intento equilibrar todo.</p>
+                <p>35.-Soy una persona paciente, reflexiva, introspectiva, que intento equilibrar todo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option35" id="inlineRadio1" value="2" required>
