@@ -542,7 +542,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>6.-Soy muy productivo,confiable y autodisciplinado. Completo lo que tengo que hacer en tiempo y forma.</p>
+                <p>6.-Soy productivo, confiable y autodisciplinado. Hago lo que tengo que hacer en tiempo y forma.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio1" value="0" required>
@@ -693,7 +693,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>14.-Soy una persona decidida, comprometida y efectiva: Cuando veo un objetivo claro, voy a por él y casi Sí lo consigo.</p>
+                <p>14.-Soy una persona decidida, comprometida y efectiva: Cuando veo un objetivo claro, voy a por él y casi siempre lo consigo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio1" value="0" required>
@@ -864,7 +864,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>23.-Veo ideas, temas, oportunidades nuevas, soluciones creativas, donde otros sólo ven "lo de Sí".</p>
+                <p>23.-Suelo tomar decisiones con rapidez y seguridad; La paciencia no es mi mejor virtud.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option23" id="inlineRadio1" value="0" required>
@@ -997,7 +997,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>30.-Creo que es importante pensar antes de actuar.</p>
+                <p>30.-Para mí es muy importante pensar bien las cosas antes de actuar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option30" id="inlineRadio1" value="0" required>
@@ -1035,7 +1035,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>32.-Motivar a los demás, cooperar, la armonía y la tranquilidad son valores muy importantes.</p>
+                <p>32.-La cooperación, la armonía y la tranquilidad son algunos de mis valores importantes.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option32" id="inlineRadio1" value="0" required>
@@ -1073,7 +1073,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>34.-La paciencia no es mi mejor virtud.</p>
+                <p>34.-Veo ideas, temas, oportunidades nuevas, soluciones creativas, donde otros sólo ven "lo de siempre".</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option34" id="inlineRadio1" value="0" required>
