@@ -440,7 +440,7 @@
             </div>
             <span class="description">
                 Bienvenido al Test de Inteligencia Relacional de Discovery (TIR)©. Este Cuestionario de Autodiagnóstico nos servirá para conocer un poco más tu estilo relacional. No hay estilos mejores o peores, sólo diferentes maneras de ver el mundo. Responde sin pensar demasiado, a <strong>qué es importante para tí y qué te gusta hacer y qué haces con mayor facilidad y sin esfuerzo. Si haces algo bien, pero no te sientes cómodo, tranquilo y satisfecho al hacerlo, no marques las frase.</strong>
-                Marca la opción que más se aproxime a su funcionamiento habitual, teniendo en cuenta si la frase <strong>se cumple, no se cumple o se cumple A veces.</strong>
+                Marca la opción que más se aproxime a su funcionamiento habitual, es decir si la frase, <u><strong>generalmente</strong></u>, <strong>Sí</strong> se cumple o <strong>No</strong> se cumple.
             </span>
         </div>
     </div>
@@ -622,7 +622,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>12.-Soy empático y busco entender cómo se sienten las personas para conectar mejor y avanzar juntos.</p>
+                <p>12.-Soy empático y creo que es crucial entender cómo se sienten las personas para conectar y avanzar juntos.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option12" id="inlineRadio1" value="1" required>
