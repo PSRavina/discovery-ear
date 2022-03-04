@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcat icon" href="favicon.ico">
-    <title>TIR</title>
+    <title>TPR</title>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -23,7 +23,7 @@
             <div class="fadeIn first">
                 <img src="https://static.wixstatic.com/media/4bdd77_d8f0ff0492f84ec39c67a31971f9e88a~mv2.png/v1/fill/w_1737,h_498,al_c,q_90/4bdd77_d8f0ff0492f84ec39c67a31971f9e88a~mv2.webp" id="icon" alt="User Icon" />
             </div>
-            <span>Bienvenido al <strong>T</strong>est de <strong>I</strong>nteligencia <strong>R</strong>elacional</span> <br>
+            <span>Bienvenido al <strong>T</strong>est de <strong>P</strong>redominancia <strong>R</strong>elacional</span> <br>
             @if ($errors->any())
             <div class="alert alert-danger" role="alert">
                 <span>

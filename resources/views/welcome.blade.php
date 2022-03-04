@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcat icon" href="favicon.ico">
 
-    <title>TIR</title>
+    <title>TPR</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -436,10 +436,10 @@
     <div class="container">
         <div class="row justify-content-center align-items-center minh-100">
             <div>
-                <h1>TEST DE INTELIGENCIA RELACIONAL DISCOVERY LEADERSHIP ©</h1>
+                <h1>TEST DE PREDOMINANCIA RELACIONAL DISCOVERY LEADERSHIP ©</h1>
             </div>
             <span class="description">
-                Bienvenido al Test de Inteligencia Relacional de Discovery (TIR)©. Este Cuestionario de Autodiagnóstico nos servirá para conocer un poco más tu estilo relacional. No hay estilos mejores o peores, sólo diferentes maneras de ver el mundo. Responde sin pensar demasiado, a <strong>qué es importante para tí y qué te gusta hacer y qué haces con mayor facilidad y sin esfuerzo. Si haces algo bien, pero no te sientes cómodo, tranquilo y satisfecho al hacerlo, no marques las frase.</strong>
+                Bienvenido al Test de Predominancia Relacional Discovery (TPR)©. Este Cuestionario de Autodiagnóstico nos servirá para conocer un poco más tu estilo relacional. No hay estilos mejores o peores, sólo diferentes maneras de ver el mundo. Responde sin pensar demasiado, a <strong>qué es importante para tí y qué te gusta hacer y qué haces con mayor facilidad y sin esfuerzo. Si haces algo bien, pero no te sientes cómodo, tranquilo y satisfecho al hacerlo, no marques las frase.</strong>
                 Marca la opción que más se aproxime a tu funcionamiento habitual, es decir si la frase, <u><strong>generalmente</strong></u>, <strong>Sí</strong> se cumple o <strong>No</strong> se cumple.
             </span>
         </div>
