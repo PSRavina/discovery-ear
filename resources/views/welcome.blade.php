@@ -910,7 +910,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>30.-Para mí es muy importante pensar bien las cosas antes de actuar.</p>
+                <p>30.-Es importante mirar todos los ángulos de una cuestión antes de actuar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option30" id="inlineRadio1" value="1" required>
@@ -990,7 +990,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>35.-Soy una persona paciente, reflexiva, introspectiva, que intento equilibrar todo.</p>
+                <p>35.-Soy una persona paciente, reflexiva, introspectiva, que intento tener en cuenta todo y equilibrar todo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option35" id="inlineRadio1" value="1" required>
