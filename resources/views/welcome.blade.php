@@ -439,7 +439,7 @@
                 <h1>CUESTIONARIO EQUIPOS ALTO RENDIMIENTO DISCOVERY LEADERSHIP ©</h1>
             </div>
             <span class="description">
-                Este cuestionario nos servirá para comenzar a trabajar, teniendo en cuenta dónde está el equipo en este momento. Sólo el facilitador conocerá las respuestas individuales. El equipo conocerá el agregado de todos los miembros del equipo. A continuación encontrarás 28 frases referidas a este Equipo de Dirección de la Planta de Elaborados de Campofrío Frescos. Marca la opción que más se aproxime a su funcionamiento habitual, teniendo en cuenta si la frase se cumple siempre, casi siempre, a veces, pocas veces o nunca.
+                Este cuestionario nos servirá para comenzar a trabajar, teniendo en cuenta dónde está el equipo en este momento. Sólo el facilitador conocerá las respuestas individuales. El equipo conocerá el agregado de todos los miembros del equipo. A continuación encontrarás 28 frases referidas a este Equipo Campofrío. Marca la opción que más se aproxime a su funcionamiento habitual, teniendo en cuenta si la frase se cumple siempre, casi siempre, a veces, pocas veces o nunca.
             </span>
         </div>
     </div>
