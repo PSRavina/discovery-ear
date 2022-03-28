@@ -450,12 +450,12 @@
                 <p>1.-Cuando alguien se enfada conmigo sin razón, pienso: ¿por qué no se calmará y se controlará antes de venir a hablar conmigo?</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option1" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option1" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option1" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option1" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -466,12 +466,12 @@
                 <p>2.-Yo escucho a todo el mundo por igual. Todo el mundo debe tener el mismo tiempo, espacio y atención por mi parte. </p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option2" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option2" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option2" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option2" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -482,12 +482,12 @@
                 <p>3.-En general, mientras escucho a otra persona, me adelanto en el tiempo y me pongo a pensar en lo que le voy a responder.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option3" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option3" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option3" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option3" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -498,12 +498,12 @@
                 <p>4.-Si me doy cuenta de que el otro va a hacer una pregunta, me anticipo y le contesto directamente, para ahorrar tiempo...</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option4" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option4" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option4" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option4" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -529,12 +529,12 @@
                 <p>6.-Creo que a la mayoría de las personas no le importa que las interrumpa, siempre que las ayude en sus problemas...</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option6" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option6" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option6" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option6" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -544,13 +544,13 @@
                 <p>7.-Cuando escucho a algunas personas, me pregunto mentalmente por qué les resultará tan difícil centrarse en lo importante y no dar tantas vueltas…</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option7" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option7" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option7" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option7" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -592,13 +592,13 @@
                 <p>10.-Cuando "yo ya he pasado por lo que el otro me está contando", intervengo y lo comparto con él para ahorrar tiempo y/o evitar errores.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option10" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option10" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option10" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option10" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -608,13 +608,13 @@
                 <p>11.-Hay personas que me cuentan los mismos problemas una y otra vez; yo les escucho, por respeto, pero desconecto mentalmente.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option11" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option11" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option11" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option11" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -640,13 +640,13 @@
                 <p>13.-Si una persona viene a contarme algo importante, procuro escuchar sólo sus palabras, obviando los sentimientos, para que no me afecten.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option13" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option13" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option13" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option13" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -672,13 +672,13 @@
                 <p>15.-Si no interrumpiera a las personas de vez en cuando, ellas terminarían hablándome durante horas…</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option15" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option15" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option15" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option15" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -688,13 +688,13 @@
                 <p>16.-Hay personas que me agotan: cuando alguna viene a contarme cosas varias veces seguidas, trato de poner mi mente en otra cosa para no alterarme...</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option16" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option16" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option16" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option16" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -704,13 +704,13 @@
                 <p>17.-Preguntarle demasiado a una persona sobre un asunto, hace que se desenfoque de lo importante.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option17" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option17" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option17" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option17" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -736,13 +736,13 @@
                 <p>19.-Cuando una persona está equivocada acerca de algún punto de su problema, es importante “parar su discurso” y hacer que replantee ese punto de vista de manera correcta.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option19" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option19" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option19" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option19" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -768,13 +768,13 @@
                 <p>21.-Si entiendo lo que una persona me acaba de decir, me parece redundante volver a preguntarle para verificar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option21" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option21" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option21" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option21" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
@@ -784,13 +784,13 @@
                 <p>22.-Soy multitarea: soy perfectamente capaz de escuchar a una persona mientras hago otras cosas.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option22" id="inlineRadio1" value="1" required>
+                        <input class="form-check-input" type="radio" name="option22" id="inlineRadio1" value="0" required>
                         <label class="form-check-label" for="inlineRadio1">Sí</label>
                     </div>
 
 
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option22" id="inlineRadio5" value="0">
+                        <input class="form-check-input" type="radio" name="option22" id="inlineRadio5" value="1">
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
