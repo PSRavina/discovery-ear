@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcat icon" href="favicon.ico">
 
-    <title>TPR</title>
+    <title>CEI</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -436,11 +436,10 @@
     <div class="container">
         <div class="row justify-content-center align-items-center minh-100">
             <div>
-                <h1>TEST DE PREDOMINANCIA RELACIONAL DISCOVERY LEADERSHIP ©</h1>
+                <h1>CUESTIONARIO DE ESCUCHA INTEGRATIVA DISCOVERY LEADERSHIP ©</h1>
             </div>
             <span class="description">
-                Bienvenido al Test de Predominancia Relacional Discovery (TPR)©. Este Cuestionario de Autodiagnóstico nos servirá para conocer un poco más tu estilo relacional. No hay estilos mejores o peores, sólo diferentes maneras de ver el mundo. Responde sin pensar demasiado, a <strong>qué es importante para tí y qué te gusta hacer y qué haces con mayor facilidad y sin esfuerzo. Si haces algo bien, pero no te sientes cómodo, tranquilo y satisfecho al hacerlo, no marques las frase.</strong>
-                Marca la opción que más se aproxime a tu funcionamiento habitual, es decir si la frase, <u><strong>generalmente</strong></u>, <strong>Sí</strong> se cumple o <strong>No</strong> se cumple.
+                Bienvenido al <strong>C</strong>uestionario de <strong>E</strong>scucha <strong>I</strong>ntegrativa (<strong>CEI</strong>)©. <strong> <u>Responda</u></strong>, sin pensarlo demasiado, <u><strong>Sí</strong></u> o <u><strong>No</strong></u>, dependiendo de lo que “normalmente” suele hacer. No hay respuestas buenas o malas; sólo posibilidades de mejora y desarrollo.
             </span>
         </div>
     </div>
@@ -448,7 +447,7 @@
         <div class="row justify-content-center">
             <div id="my-form" class="col-12 col-md-10 col-lg-8 my-form">
                 @csrf
-                <p>1.-Me gusta tener las cosas organizadas y centrarme en los detalles: un sitio para cada cosa.</p>
+                <p>1.-Cuando alguien se enfada conmigo sin razón, pienso: ¿por qué no se calmará y se controlará antes de venir a hablar conmigo?</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option1" id="inlineRadio1" value="1" required>
@@ -464,7 +463,7 @@
 
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>2.-Presto especial atención a la comunicación verbal y no verbal para comprender mejor al otro.</p>
+                <p>2.-Yo escucho a todo el mundo por igual. Todo el mundo debe tener el mismo tiempo, espacio y atención por mi parte. </p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option2" id="inlineRadio1" value="1" required>
@@ -480,7 +479,7 @@
 
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>3.-Me encanta perderme en el mundo de las ideas, de los grandes principios y valores.</p>
+                <p>3.-En general, mientras escucho a otra persona, me adelanto en el tiempo y me pongo a pensar en lo que le voy a responder.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option3" id="inlineRadio1" value="1" required>
@@ -496,7 +495,7 @@
 
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>4.-Funciono fundamentalmente por objetivos: alcanzar los retos que me propongo es muy importante para mi.</p>
+                <p>4.-Si me doy cuenta de que el otro va a hacer una pregunta, me anticipo y le contesto directamente, para ahorrar tiempo...</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option4" id="inlineRadio1" value="1" required>
@@ -512,7 +511,7 @@
 
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>5.-El mundo es muy complejo, todo se relaciona y funciona de manera Sistémica.</p>
+                <p>5.-Mientras estoy escuchando a otra persona, hago gestos de asentimiento, le miro y acompaño con pequeñas coletillas, e incluso le pregunto para que sepa le estoy prestando atención...</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option5" id="inlineRadio1" value="1" required>
@@ -527,7 +526,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>6.-Siempre hago lo que tengo que hacer en tiempo y forma. La disciplina y el orden son pilares en mi vida.</p>
+                <p>6.-Creo que a la mayoría de las personas no le importa que las interrumpa, siempre que las ayude en sus problemas...</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option6" id="inlineRadio1" value="1" required>
@@ -542,7 +541,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>7.-Los sentimientos son mucho más importantes que los pensamientos.</p>
+                <p>7.-Cuando escucho a algunas personas, me pregunto mentalmente por qué les resultará tan difícil centrarse en lo importante y no dar tantas vueltas…</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option7" id="inlineRadio1" value="1" required>
@@ -558,7 +557,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>8.-Estoy convencido de que voy a dejar un legado importante en el Mundo, un toque de genialidad.</p>
+                <p>8.-Cuando alguien viene a hablar conmigo, dejo todo lo que estaba haciendo, le miro, le observo y me preparo para escuchar todo lo que dice y lo que no dice.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option8" id="inlineRadio1" value="1" required>
@@ -574,7 +573,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>9.-Soy muy bueno cuando tengo la responsabilidad final sobre las cosas: me gusta dar dirección, tomar decisiones, asumir responsabilidades y gestionar a otros.</p>
+                <p>9.-Si no comprendo bien lo que una persona está diciendo o por qué lo dice, hago las preguntas necesarias hasta entenderla, aunque pueda parecer redundante.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option9" id="inlineRadio1" value="1" required>
@@ -590,7 +589,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>10.-Soy consciente de que, en general, cualquier problema afecta mucho más allá de lo que se ve, a muchos ámbitos.</p>
+                <p>10.-Cuando "yo ya he pasado por lo que el otro me está contando", intervengo y lo comparto con él para ahorrar tiempo y/o evitar errores.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option10" id="inlineRadio1" value="1" required>
@@ -606,7 +605,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>11.-Creo que las reglas son importantes y deben cumplirse, aunque no esté de acuerdo.</p>
+                <p>11.-Hay personas que me cuentan los mismos problemas una y otra vez; yo les escucho, por respeto, pero desconecto mentalmente.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option11" id="inlineRadio1" value="1" required>
@@ -622,7 +621,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>12.-Soy empático y creo que es crucial entender cómo se sienten las personas para conectar y avanzar juntos.</p>
+                <p>12.-El tono de voz de una persona me dice, generalmente, mucho más que sus propias palabras.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option12" id="inlineRadio1" value="1" required>
@@ -638,7 +637,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>13.-Soy una persona abierta, comunicativa, expresiva, con mucha energía, que inspira a otros.</p>
+                <p>13.-Si una persona viene a contarme algo importante, procuro escuchar sólo sus palabras, obviando los sentimientos, para que no me afecten.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio1" value="1" required>
@@ -654,7 +653,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>14.-No me rindo nunca: cuando tengo un objetivo, voy a por él y casi siempre lo consigo. </p>
+                <p>14.-Incluso cuando una persona tiene dificultades en decirme algo, actúo con calma, con paciencia, a su ritmo, aunque mi tiempo sea limitado.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio1" value="1" required>
@@ -670,7 +669,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>15.-Soy bueno en detectar todas las partes de un asunto, sus relaciones e implicaciones.</p>
+                <p>15.-Si no interrumpiera a las personas de vez en cuando, ellas terminarían hablándome durante horas…</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option15" id="inlineRadio1" value="1" required>
@@ -686,7 +685,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>16.-Me disgusta la ambigüedad, la falta de previsión, la falta de planificación y los riesgos innecesarios.</p>
+                <p>16.-Hay personas que me agotan: cuando alguna viene a contarme cosas varias veces seguidas, trato de poner mi mente en otra cosa para no alterarme...</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option16" id="inlineRadio1" value="1" required>
@@ -702,7 +701,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>17.-Creo que el desarrollo y el crecimiento personal es la clave para ser feliz.</p>
+                <p>17.-Preguntarle demasiado a una persona sobre un asunto, hace que se desenfoque de lo importante.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option17" id="inlineRadio1" value="1" required>
@@ -718,7 +717,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>18.-Me disgustan las tareas o actividades rutinarias y me aburro enseguida de ellas.</p>
+                <p>18.-Si una persona está muy enfadada, lo mejor que puedo hacer es escucharla con empatía, hasta que descargue toda la presión.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option18" id="inlineRadio1" value="1" required>
@@ -734,7 +733,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>19.-Considero que pensar es significativamente más importante que sentir.</p>
+                <p>19.-Cuando una persona está equivocada acerca de algún punto de su problema, es importante “parar su discurso” y hacer que replantee ese punto de vista de manera correcta.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option19" id="inlineRadio1" value="1" required>
@@ -750,7 +749,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>20.-Me cuesta tomar decisiones si no tengo toda la información.</p>
+                <p>20.-Si alguien me cuenta algo, pero veo que su cuerpo dice otra cosa, se lo comento y le pregunto al respecto.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option20" id="inlineRadio1" value="1" required>
@@ -766,7 +765,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>21.-Prefiero relacionarme con personas poco emocionales, que estén centradas en el trabajo y se comporten adecuadamente. </p>
+                <p>21.-Si entiendo lo que una persona me acaba de decir, me parece redundante volver a preguntarle para verificar.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option21" id="inlineRadio1" value="1" required>
@@ -782,7 +781,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>22.-Primero las personas: con un buen equipo puedo alcanzar cualquier objetivo.</p>
+                <p>22.-Soy multitarea: soy perfectamente capaz de escuchar a una persona mientras hago otras cosas.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option22" id="inlineRadio1" value="1" required>
@@ -798,7 +797,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>23.-Suelo tomar decisiones con rapidez y seguridad; La paciencia no es mi mejor virtud.</p>
+                <p>23.-Cuando le contesto a una persona, lo hago en función de cómo percibo que se siente…</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option23" id="inlineRadio1" value="1" required>
@@ -814,7 +813,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>24.-Evaluo mi éxito en función de la efectividad de lo que hago y el resultado final.</p>
+                <p>24.-Cuando alguna persona me cuenta algo importante para ella, le doy prioridad y me centro en profundizar, comprender y avanzar con ella.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option24" id="inlineRadio1" value="1" required>
@@ -828,187 +827,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>25.-Me molesta tener que elegir apresuradamente, sin reflexionar.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option25" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option25" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center" style="margin-top: 1em;">
+                <button type="submit" class="btn btn-lg btn-primary" style="vertical-align:middle; background-color:rgb(224, 73, 40); border:1px solid black" id="myBtn" value="submit">Enviar</button>
             </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>26.-Disfruto de tareas como clasificar, ordenar y planificar.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option26" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option26" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>27.-Me siento incómodo ante situaciones de conflicto.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option27" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option27" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>28.-Me gusta trabajar en varios temas a la vez; la agilidad, lo novedoso, lo distinto, lo original.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option28" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option28" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>29.-Suelo organizarlo todo en puntos clave y en principios operativos; si algo no es operativo, no lo tengo en cuenta.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option29" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>30.-Es importante mirar todos los ángulos de una cuestión antes de actuar.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option30" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>31.-Me gusta programar mi vida personal y profesional y me molesta cuando tengo que desviarme de lo planificado.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option31" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>32.-La cooperación, la armonía y la tranquilidad son algunos de mis valores.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option32" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>33.-A veces me cuesta enfocar en un único tema o centrarme en los pequeños detalles.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option33" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>34.-Veo ideas, temas, oportunidades nuevas, soluciones creativas, donde otros sólo ven "lo de siempre".</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option34" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
-                @csrf
-                <p>35.-Soy una persona paciente, reflexiva, introspectiva, que intento tener en cuenta todo y equilibrar todo.</p>
-                <div class="inputs-radio">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio1" value="1" required>
-                        <label class="form-check-label" for="inlineRadio1">Sí</label>
-                    </div>
-
-
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="option35" id="inlineRadio5" value="0">
-                        <label class="form-check-label" for="inlineRadio5">No</label>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-12 text-center" style="margin-top: 1em;">
-                        <button type="submit" class="btn btn-lg btn-primary" style="vertical-align:middle; background-color:rgb(224, 73, 40); border:1px solid black" id="myBtn" value="submit">Enviar</button>
-                    </div>
-                </div>
+        </div>
     </form>
 </body>
 
