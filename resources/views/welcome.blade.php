@@ -824,13 +824,11 @@
                         <label class="form-check-label" for="inlineRadio5">No</label>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center" style="margin-top: 1em;">
-                <button type="submit" class="btn btn-lg btn-primary" style="vertical-align:middle; background-color:rgb(224, 73, 40); border:1px solid black" id="myBtn" value="submit">Enviar</button>
-            </div>
-        </div>
+                <div class="row">
+                    <div class="col-12 text-center" style="margin-top: 1em;">
+                        <button type="submit" class="btn btn-lg btn-primary" style="vertical-align:middle; background-color:rgb(224, 73, 40); border:1px solid black" id="myBtn" value="submit">Enviar</button>
+                    </div>
+                </div>
     </form>
 </body>
 
