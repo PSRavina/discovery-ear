@@ -28,7 +28,7 @@ class RequestSent extends Mailable
      */
     public function build()
     {
-        return $this->subject('Se ha recibido una respuesta del Test de Inteligencia Relacional (TIR)')
+        return $this->subject('Se ha recibido una respuesta del Cuestionario de Escucha Integrativa (CEI)')
             ->view('mails.request_sent');
     }
 }
