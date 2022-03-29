@@ -35,10 +35,10 @@ class AverageItems implements FromCollection, WithHeadings, WithTitle
         $rows = DB::connection()
             ->table('surveys as srv')
             ->selectRaw(
-                '((option2) + (option4)+ (option6)+(option10)+(option15)+(option19) Escucha Previa,
-                ((option1) +(option3)+(option7)+(option11)+(option16)+(option22) Escucha Enfocada,
-                ((option8) +(option12)+(option18)+(option20)+(option23)+(option13) Escucha Global,
-                ((option5) +(option9)+(option14)+(option24)+(option17)+(option21) Escucha Integrativa,
+                '(option2) + (option4)+ (option6)+(option10)+(option15)+(option19) Escucha Previa,
+                (option1) +(option3)+(option7)+(option11)+(option16)+(option22) Escucha Enfocada,
+                (option8) +(option12)+(option18)+(option20)+(option23)+(option13) Escucha Global,
+                (option5) +(option9)+(option14)+(option24)+(option17)+(option21) Escucha Integrativa,
             ')
             ->join('users as usr', 'usr.id', '=', 'srv.user_id')
             ->get();
