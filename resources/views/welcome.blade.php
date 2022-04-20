@@ -511,7 +511,7 @@
 
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>5.-Mientras estoy escuchando a otra persona, hago gestos de asentimiento, le miro y acompaño con pequeñas coletillas, e incluso le pregunto para que sepa le estoy prestando atención...</p>
+                <p>5.-Mientras estoy escuchando a otra persona, me centro totalmente en él y me olvido de mi, sabiendo que algo banal para mí puede ser muy importante para el otro.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option5" id="inlineRadio1" value="1" required>
@@ -589,7 +589,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>10.-Cuando "yo ya he pasado por lo que el otro me está contando", intervengo y lo comparto con él para ahorrar tiempo y/o evitar errores.</p>
+                <p>10.-Cuando "yo ya he pasado por lo que el otro me está contando", intervengo y lo comparto con él para que aprenda de mi experiencia y/o ganemos tiempo.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option10" id="inlineRadio1" value="0" required>
@@ -637,7 +637,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>13.-Si una persona viene a contarme algo importante, procuro escuchar sólo sus palabras, obviando los sentimientos, para que no me afecten.</p>
+                <p>13.-Si una persona viene a contarme algo importante, procuro escuchar sólo sus palabras, obviando los sentimientos, para que no me afecten y poder ser más neutral.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option13" id="inlineRadio1" value="0" required>
@@ -653,7 +653,7 @@
             </div>
             <div class="col-12 col-md-10 col-lg-8 my-form" id="my-form">
                 @csrf
-                <p>14.-Incluso cuando una persona tiene dificultades en decirme algo, actúo con calma, con paciencia, a su ritmo, aunque mi tiempo sea limitado.</p>
+                <p>14.-Cuando una persona tiene dificultades en decirme algo, actúo con calma, con paciencia, a su ritmo, aunque mi tiempo sea muy limitado.</p>
                 <div class="inputs-radio">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="option14" id="inlineRadio1" value="1" required>
