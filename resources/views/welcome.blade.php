@@ -25,7 +25,7 @@
         }
 
         .container {
-            background-color: rgb(224, 73, 40);
+            background-color: rgb(224 73 40 / 74%);
             border-radius: 15px;
             padding: 2em;
             box-shadow: 4px 0px 6px 0px #9f4a4a;
@@ -436,7 +436,7 @@
     <div class="container">
         <div class="row justify-content-center align-items-center minh-100">
             <div>
-                <h1>CUESTIONARIO EQUIPOS ALTO RENDIMIENTO DISCOVERY LEADERSHIP ©</h1>
+                <h1>Cuestionario de  Equipos de Alto Rendimiento Discovery Leadership ©</h1>
             </div>
             <span class="description">
                 Este cuestionario nos servirá para comenzar a trabajar, teniendo en cuenta dónde está el equipo en este momento. Sólo el facilitador conocerá las respuestas individuales. El equipo conocerá el agregado de todos los miembros del equipo Taalentfy. A continuación encontrarás 28 frases referidas a este Equipo. Marca la opción que más se aproxime a su funcionamiento habitual, teniendo en cuenta si la frase se cumple siempre, casi siempre, a veces, pocas veces o nunca.
