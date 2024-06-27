@@ -47,7 +47,6 @@ class AverageItems implements FromCollection, WithHeadings, WithTitle
                 (avg(option7) + avg(option12)+ avg(option19)+ avg(option28))/4 Orelaciones'
             )
             ->join('users as usr', 'usr.id', '=', 'srv.user_id')
-            ->where('srv.user_id', '<', '11')
             ->get();
         return $rows;
     }
